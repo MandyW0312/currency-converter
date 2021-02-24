@@ -15,13 +15,6 @@ export function App() {
     setCurrencyRates(response.data)
   }, [])
 
-  useEffect(
-    function () {
-      console.log(currencyRates)
-    },
-    [currencyRates]
-  )
-
   return (
     <div>
       <header>

@@ -25,6 +25,19 @@ main {
   background-color: #277da1;
 }
 
+ul {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: auto;
+  padding: 1rem;
+}
+
+li {
+  list-style: none;
+  border: 1px solid black;
+  padding: 0.5rem;
+}
+
 footer {
   text-align: center;
   background-color: #43aa8b;
