@@ -22,7 +22,7 @@ export function App() {
       </header>
       <main>
         <section>
-          <label htmlFor="Currency">Currency Amount (base: USD): </label>
+          <label htmlFor="Currency">Currency Amount (Base: USD): </label>
           <input
             type="number"
             min="0"
